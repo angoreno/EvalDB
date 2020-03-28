@@ -52,7 +52,7 @@
 <ownDataTypeParameters>,1,1</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tbl_pregunta_cmp_idpregunta" id="02B95C81-4DA3-3D9D-24A1-F2D2FB10D9FC">
+<Column name="tbl_preg_cmp_idpreg" id="02B95C81-4DA3-3D9D-24A1-F2D2FB10D9FC">
 <createdBy>Isaac Pizarro</createdBy>
 <createdTime>2020-03-13 18:33:16 UTC</createdTime>
 <ownerDesignName>datamodeler</ownerDesignName>
@@ -79,7 +79,7 @@
 <colUsage columnID="5063A7AF-8015-BF7C-744F-7FCA246F037D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A4836768-CCCA-21FD-8051-D1780F048E87" name="tbl_alternativa_tbl_pregunta_FK">
+<ind_PK_UK id="A4836768-CCCA-21FD-8051-D1780F048E87" name="tbl_alternativa_tbl_preg_FK">
 <createdBy>Isaac Pizarro</createdBy>
 <createdTime>2020-03-13 18:33:16 UTC</createdTime>
 <ownerDesignName>datamodeler</ownerDesignName>
