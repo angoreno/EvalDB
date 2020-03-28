@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35EEC55A-594F-C56D-B39E-410BF72AC94F" name="tbl test">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>E17790F0-2E55-B7BD-ED73-AD5CF26A01DA</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cmp idtest" id="63472A3B-1DD9-CDA3-803E-38F0A07F5103">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>C166BAB8-D858-E370-C77B-610C85331C83</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cmp nombre" id="E3FE08B0-06B2-1B78-C698-AAFF58DFA6CE">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>55D479FB-2D70-1592-32A8-D9E090411750</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cmp descripcion" id="2283F498-22B2-3266-B1CE-18CD4B268DD7">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>BB967AC1-624F-F3C6-371F-C92D1AE8DCB5</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cmp programa" id="5A05E9CE-F682-68DF-0DDC-B491ED9A6864">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>D561DE3C-8726-A442-C397-89FB65F9705A</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cmp unidad" id="BB2B6414-B800-3B0B-157D-0F782BECE179">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>8EA8996F-0176-FDCE-9B73-BEC2D838C823</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cmp autor" id="70BA5449-8B18-A37D-FE8F-6E9771FB74F4">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>1EF0C237-A5E8-D950-D754-79A9B176157E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cmp fcreacion" id="18B5E88B-1A0C-C274-DC3B-9724BDABF8D2">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>713B361D-09D0-6FC0-723B-3224FDD82E14</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD24D59F-C5EC-F6E0-F898-54B3B56ECF2D" name="tbl test PK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>E9A12925-4F63-AE7D-BA65-AE0063207D55</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63472A3B-1DD9-CDA3-803E-38F0A07F5103</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

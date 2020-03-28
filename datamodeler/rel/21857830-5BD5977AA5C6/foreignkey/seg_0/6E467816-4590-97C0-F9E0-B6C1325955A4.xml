@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E467816-4590-97C0-F9E0-B6C1325955A4" containerWithKeyObject="5B959CF7-23F1-6B9F-1B98-ED612354B952" localFKIndex="25D7A716-6BE8-974B-A884-22B259BA2954" name="tbl_alumn_tbl_curso_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:57:02 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>tbl_curso</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>97800656-BA55-1243-9AB2-ED755F184A58</referredTableID>
+<keyObject>753EA620-D396-2458-655D-D50FB0502BCD</keyObject>
+<referredKeyID>753EA620-D396-2458-655D-D50FB0502BCD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cmp_idcurso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

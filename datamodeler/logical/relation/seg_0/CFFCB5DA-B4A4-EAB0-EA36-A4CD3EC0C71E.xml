@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tbl_registros_tbl_curso_FK" directorySegmentName="seg_0" id="CFFCB5DA-B4A4-EAB0-EA36-A4CD3EC0C71E">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>2D885934-9925-D788-B30F-4DD7F71A56EA</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<sourcePk>AC6A88FF-DCAD-C457-24EF-91E34BE1CFD1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD7B2061-42C4-CF90-BF17-4AFD7D98425C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05B68D60-6FBC-2724-C7E1-77F0A3C93893</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B67B85F9-5662-316D-5490-23AED63BBD47" name="tbl_alternat">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:27:30 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cmp_idalternativa" id="5063A7AF-8015-BF7C-744F-7FCA246F037D">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:28:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_descripcion" id="AA9A1E55-1586-7A49-033B-45CE200ED891">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:30:03 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_vresp" id="CBF072B9-A8F2-B054-2F97-3CF1B2172975">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:30:32 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_porcentaje" id="9B79D291-9CC8-008E-26CA-D71AC43E3CD8">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:32:18 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,1,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tbl_pregunta_cmp_idpregunta" id="02B95C81-4DA3-3D9D-24A1-F2D2FB10D9FC">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:33:16 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="051F69EB-3AF6-7CF9-55D0-185BACAB6735" referredColumn="1506538D-CC72-3632-6C6C-4837057FA60D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8B69E62-77FB-615E-D160-D28C5D9867EC" name="tbl_alternativa_PK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:28:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5063A7AF-8015-BF7C-744F-7FCA246F037D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4836768-CCCA-21FD-8051-D1780F048E87" name="tbl_alternativa_tbl_pregunta_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:33:16 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02B95C81-4DA3-3D9D-24A1-F2D2FB10D9FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

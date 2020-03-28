@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="437A9F3C-E03C-8CE6-3757-512E324DFA64" name="tbl_registros">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 23:28:44 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cmp_idregistro" id="C80DE4FB-D7B2-CDC6-8ADA-E0BD50577293">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 23:29:22 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tbl_programa_cmp_idprogram" id="D6539C7D-9BCC-926B-E15B-A7D284D37556">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:52:25 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08EA8B61-B138-0195-AA65-B68351A3D2C5" referredColumn="FB6045B0-7401-F30B-3770-BA996E5CDE02"/>
+</associations>
+</Column>
+<Column name="tbl_test_cmp_idtest" id="59529103-3FCC-2219-A406-9AEDE22547A2">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:47:13 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5283054B-02A1-8A60-207E-C4ADF75CAD63" referredColumn="C166BAB8-D858-E370-C77B-610C85331C83"/>
+</associations>
+</Column>
+<Column name="tbl_curso_cmp_idcurso" id="2EBC4A2F-04F5-9886-6B11-55818624CBFF">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:46:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D885934-9925-D788-B30F-4DD7F71A56EA" referredColumn="2DE81E50-93C1-005C-1041-DCC063329293"/>
+</associations>
+</Column>
+<Column name="tbl_alumn_cmp_rut" id="F900D833-CF1E-56D5-12CB-DFB8CB05B69A">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:57:26 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="760B6E4C-3971-6EDC-4E25-CEA4D3F02743" referredColumn="A31069D1-7825-0AA4-0941-638C04A24F81"/>
+</associations>
+</Column>
+<Column name="tbl_preg_cmp_idpregunta" id="FCAFC71F-63E9-6C68-61A2-16E0D9F0A986">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:47:19 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A06D31C-4452-3C9D-BE9A-0EF21E6D4235" referredColumn="1506538D-CC72-3632-6C6C-4837057FA60D"/>
+</associations>
+</Column>
+<Column name="tbl_alternat_cmp_idalternativa" id="B41105AC-2E38-20C8-E81B-5079D3B9DC24">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:47:26 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD0CA245-5777-720F-DE5F-472D4E8FFA4C" referredColumn="5063A7AF-8015-BF7C-744F-7FCA246F037D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A226A30-3241-CC7B-7FE2-224F92229E2E" name="tbl_registros_PK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 23:29:22 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C80DE4FB-D7B2-CDC6-8ADA-E0BD50577293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B60DC06D-B003-4067-E720-71A0BB54CD4B" name="tbl_registros_tbl_curso_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:46:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EBC4A2F-04F5-9886-6B11-55818624CBFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="618CB703-C003-898B-9AE1-A98047F974BF" name="tbl_registros_tbl_test_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:47:13 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59529103-3FCC-2219-A406-9AEDE22547A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53F816DF-8580-BD6F-47B2-1847DB9DFCF7" name="tbl_registros_tbl_preg_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:47:19 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCAFC71F-63E9-6C68-61A2-16E0D9F0A986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE41C356-23DD-19FC-2C56-4F25787733D8" name="tbl_registros_tbl_alternat_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:47:26 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B41105AC-2E38-20C8-E81B-5079D3B9DC24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9A91E95-F833-0447-E448-7591370AE41A" name="tbl_registros_tbl_programa_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:52:25 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6539C7D-9BCC-926B-E15B-A7D284D37556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8659EE65-2BE3-7E9F-936B-FD460B31DD5B" name="tbl_registros_tbl_alumn_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:57:26 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F900D833-CF1E-56D5-12CB-DFB8CB05B69A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

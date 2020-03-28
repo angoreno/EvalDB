@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tbl_alumn_tbl_programa_FK" directorySegmentName="seg_0" id="DEAC11A4-8163-6536-B325-C7CE408B32BC">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>11341A2B-77A4-EBA0-3D9F-F87713116609</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<sourcePk>29746AFD-424B-A1EA-0313-249ECD160902</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5D1D194-742D-37F4-B9E2-0843F5DD93EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4866C9DD-5A57-13B1-2055-B1EE8F0F858D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

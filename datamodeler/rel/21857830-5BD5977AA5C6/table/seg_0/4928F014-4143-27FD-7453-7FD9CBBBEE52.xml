@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4928F014-4143-27FD-7453-7FD9CBBBEE52" name="tbl_programa">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 23:23:47 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cmp_idprogram" id="FB6045B0-7401-F30B-3770-BA996E5CDE02">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 23:24:17 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_nombre" id="608E2EB6-2809-5DB0-C9EF-C5B62E97EC11">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 23:24:39 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_descripcion" id="3CF1DC5C-A0A5-DADC-41CD-704010B5AAC3">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 23:25:00 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9B98D97-D788-4601-7ECE-04D5A9BCD971" name="tbl_programa_PK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 23:24:17 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6045B0-7401-F30B-3770-BA996E5CDE02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

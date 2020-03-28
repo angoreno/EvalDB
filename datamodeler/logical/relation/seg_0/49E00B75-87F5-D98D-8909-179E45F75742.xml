@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tbl_pregunta_tbl_test_FK" directorySegmentName="seg_0" id="49E00B75-87F5-D98D-8909-179E45F75742">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 15:00:35 UTC</createdTime>
+<generatorID>EAC9E716-E062-9A9E-3DE0-B402084227AD</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="21857830-92E2-2DDC-9518-5BD5977AA5C6" value="true"/>
+</engineerTo>
+<sourcePk>FD24D59F-C5EC-F6E0-F898-54B3B56ECF2D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35EEC55A-594F-C56D-B39E-410BF72AC94F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78AF7396-A4B6-AA36-964C-75752DCE072C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

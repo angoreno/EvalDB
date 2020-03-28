@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0B4CA5C-5AA1-9BE8-E7BC-A096DCC43346" name="tbl_preg">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:10:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cmp_idpregunta" id="1506538D-CC72-3632-6C6C-4837057FA60D">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:12:48 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_enunciado" id="0D1E5792-B955-7F2E-204B-2288E2B7E36B">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:16:09 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_puntaje" id="C11545A8-326D-5ED9-95DB-5CDF3793AC49">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:16:09 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tbl_test_cmp_idtest" id="DCD2C885-8FC4-7683-0E16-8BFCC1CA10AC">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:40:32 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAC9E716-E062-9A9E-3DE0-B402084227AD" referredColumn="C166BAB8-D858-E370-C77B-610C85331C83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E577110-88A8-58B0-52F9-B9EF80F64DD4" name="tbl_pregunta_PK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:12:49 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1506538D-CC72-3632-6C6C-4837057FA60D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DB55AD2-994A-E170-F5C9-6320DDFE09AE" name="tbl_pregunta_tbl_test_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:40:32 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCD2C885-8FC4-7683-0E16-8BFCC1CA10AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

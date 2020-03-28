@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E17790F0-2E55-B7BD-ED73-AD5CF26A01DA" name="tbl_test">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:35:28 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cmp_idtest" id="C166BAB8-D858-E370-C77B-610C85331C83">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:38:01 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_nombre" id="55D479FB-2D70-1592-32A8-D9E090411750">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:38:01 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_descripcion" id="BB967AC1-624F-F3C6-371F-C92D1AE8DCB5">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:38:31 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_programa" id="D561DE3C-8726-A442-C397-89FB65F9705A">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:39:01 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_unidad" id="8EA8996F-0176-FDCE-9B73-BEC2D838C823">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:39:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_autor" id="1EF0C237-A5E8-D950-D754-79A9B176157E">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:40:06 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cmp_fcreacion" id="713B361D-09D0-6FC0-723B-3224FDD82E14">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:40:26 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9A12925-4F63-AE7D-BA65-AE0063207D55" name="tbl_test_PK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-13 18:38:01 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C166BAB8-D858-E370-C77B-610C85331C83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

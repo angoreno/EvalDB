@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD0CA245-5777-720F-DE5F-472D4E8FFA4C" containerWithKeyObject="437A9F3C-E03C-8CE6-3757-512E324DFA64" localFKIndex="FE41C356-23DD-19FC-2C56-4F25787733D8" name="tbl_registros_tbl_alternat_FK">
+<createdBy>Isaac Pizarro</createdBy>
+<createdTime>2020-03-14 14:47:26 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>tbl_alternat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B67B85F9-5662-316D-5490-23AED63BBD47</referredTableID>
+<keyObject>A8B69E62-77FB-615E-D160-D28C5D9867EC</keyObject>
+<referredKeyID>A8B69E62-77FB-615E-D160-D28C5D9867EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cmp_idalternativa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
