@@ -1,9 +1,17 @@
 
+--Creacion de programas
+INSERT INTO TBL_PROGRAMA (CMP_IDPROGRAM, CMP_NOMBRE, CMP_DESCRIPCION) 
+VALUES ('1', 'Programacion JAVA FullStack', 'Programacion JAVA FullStack');
+INSERT INTO TBL_PROGRAMA (CMP_IDPROGRAM, CMP_NOMBRE, CMP_DESCRIPCION) 
+VALUES ('2', 'Programacion en Android', 'Programacion en Android');
+INSERT INTO TBL_PROGRAMA (CMP_IDPROGRAM, CMP_NOMBRE, CMP_DESCRIPCION) 
+VALUES ('3', 'Programacion en Python', 'Programacion en Python');
+
 --Creacion del nombre de las evaluaciones.
 INSERT INTO TBL_TEST (CMP_IDTEST, CMP_NOMBRE, CMP_DESCRIPCION, CMP_UNIDAD, CMP_AUTOR, CMP_FCREACION, TBL_PROGRAMA_CMP_IDPROGRAM) 
-VALUES ('1', 'Prueba de conocimiento en JAVA', 'Prueba de conocimiento en JAVA', '2', 'Rodrigo Vargas', TO_DATE('2020-03-12 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), '2')
+VALUES ('1', 'Prueba de conocimiento en JAVA', 'Prueba de conocimiento en JAVA', '2', 'Rodrigo Vargas', TO_DATE('2020-03-12 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), '2');
 INSERT INTO TBL_TEST (CMP_IDTEST, CMP_NOMBRE, CMP_DESCRIPCION, CMP_UNIDAD, CMP_AUTOR, CMP_FCREACION, TBL_PROGRAMA_CMP_IDPROGRAM) 
-VALUES ('2', 'Prueba de conocimiento en Oracle', 'Prueba de conocimiento en Oracle', '1', 'Alonso Orozco', TO_DATE('2020-03-12 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), '2')
+VALUES ('2', 'Prueba de conocimiento en Oracle', 'Prueba de conocimiento en Oracle', '1', 'Alonso Orozco', TO_DATE('2020-03-12 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), '2');
 
 --Creacion de las preguntas de las evaluacion 1.
 INSERT INTO TBL_PREG (CMP_IDPREGUNTA, CMP_ENUNCIADO, CMP_PUNTAJE, TBL_TEST_CMP_IDTEST) 
@@ -154,11 +162,11 @@ VALUES ('204', 'Un conjunto de privilegios (sistema y objetos) sobre el esquema 
 INSERT INTO TBL_ALTERNAT (CMP_IDALTERNATIVA, CMP_DESCRIPCION, CMP_VRESP, CMP_PORCENTAJE, TBL_PREG_CMP_IDPREG) 
 VALUES ('211', 'SELECT * FROM tabla', '0', '0', '21');
 INSERT INTO TBL_ALTERNAT (CMP_IDALTERNATIVA, CMP_DESCRIPCION, CMP_VRESP, CMP_PORCENTAJE, TBL_PREG_CMP_IDPREG) 
-VALUES ('211', 'CREATE TABLA tabla', '1', '1', '21');
+VALUES ('212', 'CREATE TABLA tabla', '1', '1', '21');
 INSERT INTO TBL_ALTERNAT (CMP_IDALTERNATIVA, CMP_DESCRIPCION, CMP_VRESP, CMP_PORCENTAJE, TBL_PREG_CMP_IDPREG) 
-VALUES ('211', 'INSERT INTO tabla', '0', '0', '21');
+VALUES ('213', 'INSERT INTO tabla', '0', '0', '21');
 INSERT INTO TBL_ALTERNAT (CMP_IDALTERNATIVA, CMP_DESCRIPCION, CMP_VRESP, CMP_PORCENTAJE, TBL_PREG_CMP_IDPREG) 
-VALUES ('211', 'DROP tabla', '0', '0', '21');
+VALUES ('214', 'DROP tabla', '0', '0', '21');
 
 INSERT INTO TBL_ALTERNAT (CMP_IDALTERNATIVA, CMP_DESCRIPCION, CMP_VRESP, CMP_PORCENTAJE, TBL_PREG_CMP_IDPREG) 
 VALUES ('221', 'Todos los registros existentes en la tabla que no estén relacionados con otra tabla', '0', '0', '22');
