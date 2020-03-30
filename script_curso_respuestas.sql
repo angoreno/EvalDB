@@ -1,12 +1,4 @@
 
---Creacion de programas
-INSERT INTO TBL_PROGRAMA (CMP_IDPROGRAM, CMP_NOMBRE, CMP_DESCRIPCION) 
-VALUES ('1', 'Programacion JAVA FullStack', 'Programacion JAVA FullStack');
-INSERT INTO TBL_PROGRAMA (CMP_IDPROGRAM, CMP_NOMBRE, CMP_DESCRIPCION) 
-VALUES ('2', 'Programacion en Android', 'Programacion en Android');
-INSERT INTO TBL_PROGRAMA (CMP_IDPROGRAM, CMP_NOMBRE, CMP_DESCRIPCION) 
-VALUES ('3', 'Programacion en Python', 'Programacion en Python');
-
 
 --creacion de cursos
 INSERT INTO TBL_CURSO (CMP_IDCURSO, CMP_NOMBRE, CMP_DESCRIPCION, CMP_CANT_ALUM) 
